@@ -1,0 +1,218 @@
+[33mcommit 8bd5e351b075e8400a1c37a0364df7f17d36feff[m[33m ([m[1;36mHEAD -> [m[1;32m16-likes-create-api[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Merge: 1249773 283004e
+Author: zebang.eth <112261071+zebangeth@users.noreply.github.com>
+Date:   Tue Apr 18 06:27:17 2023 -0700
+
+    Merge pull request #14 from zebangeth/15-likes-model-and-admin
+    
+    15 likes model and admin
+
+[33mcommit 283004e8bee1d3223bedbaee2065c84d92cf42c7[m[33m ([m[1;31morigin/15-likes-model-and-admin[m[33m, [m[1;32m15-likes-model-and-admin[m[33m)[m
+Author: z.l <zebang.li.2012@gmail.com>
+Date:   Tue Apr 18 20:48:28 2023 +0800
+
+    15 likes model and admin
+
+[33mcommit 1249773339ad371aa1318933508a6b37ac799ae2[m
+Merge: e633031 1490840
+Author: zebang.eth <112261071+zebangeth@users.noreply.github.com>
+Date:   Fri Mar 10 02:12:40 2023 -0800
+
+    Merge pull request #13 from zebangeth/14-tweet-retrieve-api-with-comments
+    
+    tweet retrieve api with comments
+
+[33mcommit 1490840187b2d06f758a3dababd5eb76319fd105[m[33m ([m[1;31morigin/14-tweet-retrieve-api-with-comments[m[33m, [m[1;32m14-tweet-retrieve-api-with-comments[m[33m)[m
+Author: z.l <zebang.li.2012@gmail.com>
+Date:   Fri Mar 10 18:09:54 2023 +0800
+
+    tweet retrieve api with comments
+
+[33mcommit e633031441098443d5a6fbb44ecbb641b1b236e4[m
+Merge: 8b27c33 43eba5a
+Author: zebang.eth <112261071+zebangeth@users.noreply.github.com>
+Date:   Fri Mar 10 01:57:09 2023 -0800
+
+    Merge pull request #12 from zebangeth/12-13-comments-destroy-update-list-api
+    
+    comments destroy, update, and list api
+
+[33mcommit 43eba5aa9ca02e770abc1837e38ba34f7c5057ef[m[33m ([m[1;31morigin/12-13-comments-destroy-update-list-api[m[33m, [m[1;32m12-13-comments-destroy-update-list-api[m[33m)[m
+Author: z.l <zebang.li.2012@gmail.com>
+Date:   Fri Mar 10 17:53:43 2023 +0800
+
+    comments destroy, update, and list api
+
+[33mcommit 8b27c337d9ca6638a275585c004a5e2772bfaa5c[m
+Merge: 7ed0845 a57ccab
+Author: zebang.eth <112261071+zebangeth@users.noreply.github.com>
+Date:   Fri Mar 10 00:21:23 2023 -0800
+
+    Merge pull request #11 from zebangeth/11-comments-create-api
+    
+    create comments api
+
+[33mcommit a57ccab4903acd44b3ae298bd47f4a51138f6a31[m[33m ([m[1;31morigin/11-comments-create-api[m[33m, [m[1;32m11-comments-create-api[m[33m)[m
+Author: z.l <zebang.li.2012@gmail.com>
+Date:   Fri Mar 10 16:19:50 2023 +0800
+
+    create comments api
+
+[33mcommit 7ed0845b67c5325003fe0aef11642f65dd2c2f4d[m[33m ([m[1;32mcheckout[m[33m)[m
+Merge: 606e5c8 1542a12
+Author: zebang.eth <112261071+zebangeth@users.noreply.github.com>
+Date:   Thu Mar 9 22:58:43 2023 -0800
+
+    Merge pull request #10 from zebangeth/10-comments-model-admin
+    
+    comments admin
+
+[33mcommit 1542a125e872d95ac9371232f3dc1a7a2b3a3e1b[m[33m ([m[1;31morigin/10-comments-model-admin[m[33m, [m[1;32m10-comments-model-admin[m[33m)[m
+Author: z.l <zebang.li.2012@gmail.com>
+Date:   Fri Mar 10 14:57:59 2023 +0800
+
+    comments admin
+
+[33mcommit 606e5c85b0d2ef152ed6bec57e250de38f9a794d[m
+Merge: 4950432 60b6a5a
+Author: zebang.eth <112261071+zebangeth@users.noreply.github.com>
+Date:   Wed Mar 1 23:43:00 2023 -0800
+
+    Merge pull request #9 from zebangeth/9-newsfeed-model-api-and-tests
+    
+    newsfeeds model API and tests
+
+[33mcommit 60b6a5a72a74ae6076f1b70ead84356af07a6551[m[33m ([m[1;31morigin/9-newsfeed-model-api-and-tests[m[33m, [m[1;32m9-newsfeed-model-api-and-tests[m[33m)[m
+Author: z.l <zebang.li.2012@gmail.com>
+Date:   Thu Mar 2 15:41:13 2023 +0800
+
+    newsfeeds model API and tests
+
+[33mcommit 495043231adf6815d193e62aea2d0ff6bc17dafd[m
+Merge: 5a41adb a7043bb
+Author: zebang.eth <112261071+zebangeth@users.noreply.github.com>
+Date:   Tue Feb 28 17:14:56 2023 -0800
+
+    Merge pull request #8 from zebangeth/8-friendships-models
+    
+    Create friendships model
+
+[33mcommit a7043bb5ee2866dddae7997bf1f3d1731826099f[m[33m ([m[1;31morigin/8-friendships-models[m[33m, [m[1;32m8-friendships-models[m[33m)[m
+Author: z.l <zebang.li.2012@gmail.com>
+Date:   Wed Mar 1 09:14:06 2023 +0800
+
+    friendships model
+
+[33mcommit 2a517efd2d2be3e101ce1231faecbe4be96bac3d[m
+Author: z.l <zebang.li.2012@gmail.com>
+Date:   Wed Mar 1 07:39:14 2023 +0800
+
+    Create friendships model
+
+[33mcommit 5a41adb7d7a5840feba2da40852a817560ecf7b2[m
+Merge: aa7def6 c4ae2f2
+Author: zebang.eth <112261071+zebangeth@users.noreply.github.com>
+Date:   Tue Feb 28 05:12:41 2023 -0800
+
+    Merge pull request #7 from zebangeth/7-tweet-api-and-tests
+    
+    Tweet API
+
+[33mcommit c4ae2f22c8af67edc22af7b7084803fe900de851[m[33m ([m[1;31morigin/7-tweet-api-and-tests[m[33m, [m[1;32m7-tweet-api-and-tests[m[33m)[m
+Author: z.l <zebang.li.2012@gmail.com>
+Date:   Tue Feb 28 21:11:16 2023 +0800
+
+    Tweet API
+
+[33mcommit aa7def615a91264eec5f6b27264d880f1c288fa4[m
+Merge: 1e87071 a313086
+Author: zebang.eth <112261071+zebangeth@users.noreply.github.com>
+Date:   Tue Feb 28 03:23:52 2023 -0800
+
+    Merge pull request #6 from zebangeth/6-tweet-model
+    
+    Initial Tweet Model
+
+[33mcommit a313086470b7ba11350c6626dd55a52b45e492a2[m[33m ([m[1;31morigin/6-tweet-model[m[33m, [m[1;32m6-tweet-model[m[33m)[m
+Author: z.l <zebang.li.2012@gmail.com>
+Date:   Tue Feb 28 18:35:50 2023 +0800
+
+    Initial Tweet Model
+
+[33mcommit 1e87071954887c1f5b89afa1df60ca696eee859e[m
+Merge: 7050193 1368e5c
+Author: zebang.eth <112261071+zebangeth@users.noreply.github.com>
+Date:   Tue Feb 21 01:26:12 2023 -0800
+
+    Merge pull request #5 from zebangeth/4-user-authentication-api
+    
+    login, login status, logout, sighup API
+
+[33mcommit 1368e5c9ead50adb69fe74fdd075869137129504[m[33m ([m[1;31morigin/4-user-authentication-api[m[33m, [m[1;32m4-user-authentication-api[m[33m)[m
+Author: z.l <zebang.li.2012@gmail.com>
+Date:   Tue Feb 21 17:21:15 2023 +0800
+
+    login, login status, logout, sighup API
+
+[33mcommit 7050193d3c763febcede9e3c8b78d7eb7031d0a4[m
+Merge: c31c0f2 131ecdb
+Author: zebang.eth <112261071+zebangeth@users.noreply.github.com>
+Date:   Sun Feb 19 22:39:13 2023 -0800
+
+    Merge pull request #4 from zebangeth/3-install-django-rest-framework
+    
+    Install django restframework
+
+[33mcommit 131ecdb8c425938202471ca58628ad076c3307ef[m[33m ([m[1;31morigin/3-install-django-rest-framework[m[33m, [m[1;32m3-install-django-rest-framework[m[33m)[m
+Author: z.l <zebang.li.2012@gmail.com>
+Date:   Mon Feb 20 14:34:27 2023 +0800
+
+    Install django restframework
+
+[33mcommit c31c0f2598a7885a6a767256adb0a19a2a8bfe59[m
+Merge: 5c893e0 d1e0cc9
+Author: zebang.eth <112261071+zebangeth@users.noreply.github.com>
+Date:   Sun Feb 19 20:28:32 2023 -0800
+
+    Merge pull request #3 from zebangeth/2-initial-django
+    
+    Initial Django Project
+
+[33mcommit d1e0cc91ec988d6aeaea745e996baa785fe52f19[m[33m ([m[1;31morigin/2-initial-django[m[33m, [m[1;32m2-initial-django[m[33m)[m
+Author: z.l <zebang.li.2012@gmail.com>
+Date:   Mon Feb 20 12:10:52 2023 +0800
+
+    Initial Django Project
+
+[33mcommit 5c893e083d9180c047993ef59d48bcb2393d6f20[m
+Merge: eccb902 50bd727
+Author: zebang.eth <112261071+zebangeth@users.noreply.github.com>
+Date:   Sun Feb 19 07:21:28 2023 -0800
+
+    Merge pull request #1 from zebangeth/1-initial-vagrant
+    
+    1 initial vagrant
+
+[33mcommit 50bd7274cac7c280cb0d6902555046279f808b0e[m[33m ([m[1;32m1-initial-vagrant[m[33m)[m
+Author: z.l <zebang.li.2012@gmail.com>
+Date:   Sun Feb 19 22:48:49 2023 +0800
+
+    changed git ignore
+
+[33mcommit 7eaf56169eb23cde939f59de1142c69cdf3998fd[m
+Author: vagrant <vagrant@vagrant.vm>
+Date:   Sun Feb 19 06:29:03 2023 +0000
+
+    add xx.txt
+
+[33mcommit 4c8274030dd93036646ccfb109465811f3fc181b[m
+Author: z.l <zebang.li.2012@gmail.com>
+Date:   Sun Feb 19 14:22:14 2023 +0800
+
+    initial_vagrant
+
+[33mcommit eccb902a598a9f9e9af54e1476907ca9dcfa92cc[m
+Author: zebang.eth <112261071+zebangeth@users.noreply.github.com>
+Date:   Wed Feb 15 23:13:14 2023 +0800
+
+    Initial commit
