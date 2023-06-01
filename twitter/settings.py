@@ -40,8 +40,8 @@ INSTALLED_APPS = [
 
     # third party
     'rest_framework',
-    # 'debug-toolbar',
     'django_filters',
+    'notifications',
 
     # project apps
     'accounts',
@@ -143,7 +143,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-# try:
-#     from .local_settings import *
-# except:
-#     pass
+try:
+    from .local_settings import *
+except:
+    pass
