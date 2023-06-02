@@ -46,7 +46,7 @@ class NewsFeedApiTests(TestCase):
         # 关注之后可以看到别人发的
         self.linghu_client.post(FOLLOW_URL.format(self.dongxie.id))
         response = self.dongxie_client.post(POST_TWEETS_URL, {
-            'content': 'Hello Twitter',
+            'content': 'Hello twitter',
         })
         posted_tweet_id = response.data['id']
         response = self.linghu_client.get(NEWSFEEDS_URL)
