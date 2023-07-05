@@ -147,22 +147,21 @@ STATIC_URL = '/static/'
 
 # 设置存储用户上传文件的 storage 用什么系统
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
-# 避免单元测试产生外部依赖
 TESTING = ((" ".join(sys.argv)).find('manage.py test') != -1)
 if TESTING:
     DEFAULT_FILE_STORAGE = 'django.core.files.storage.FileSystemStorage'
 
 # 当用s3boto3 作为用户上传文件存储时，需要按照你在 AWS 上创建的配置来设置你的 BUCKET_NAME
 # 和 REGION_NAME，这个值你可以改成你自己创建的 bucket 的名字和所在的 region
-AWS_STORAGE_BUCKET_NAME = 'django-twitter'
-AWS_S3_REGION_NAME = 'us-west-1'
+AWS_STORAGE_BUCKET_NAME = 'django-loopon'
+AWS_S3_REGION_NAME = 'us-east-2'
 
 # 还需要在 local_settings.py 中设置 AWS_ACCESS_KEY_ID 和 AWS_SECRET_ACCESS_KEY
-# 因为这是比较机密的信息，不适合放在 settings.py 这种共享的配置文件中
+# 因为这是比较机密的信息，是不适合放在 settings.py 这种共享的配置文件中共享给所有开发者的
 # 真实的开发场景下，可以使用 local_settings.py 的方式，或者设置在环境变量里的方式
 # 这样这些机密信息就可以只被负责运维的核心开发人员掌控，而非所有开发者，降低泄露风险
-# AWS_ACCESS_KEY_ID = 'YOUR_ACCESS_KEY_ID'
-# AWS_SECRET_ACCESS_KEY = 'YOUR_SECRET_ACCESS_KEY'
+AWS_ACCESS_KEY_ID = 'LOCAL_ACCESS_KEY_ID'
+AWS_SECRET_ACCESS_KEY = 'LOCAL_SECRET_ACCESS_KEY'
 
 
 # media 的作用适用于存放被用户上传的文件信息

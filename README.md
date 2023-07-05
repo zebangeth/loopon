@@ -1,10 +1,10 @@
-# loopon Project
+# loopon
 
 A Twitter-like social network backend development, providing essential features for a social media platform.
 
 ## Features
 
-twitter Project currently supports the following features:
+This project currently supports the following features:
 
 1. **User Authentication**: User signup and login functionality.
 
@@ -20,14 +20,15 @@ twitter Project currently supports the following features:
 
 7. **Notifications**: A notification center to keep users informed about unread likes and comments on their content.
 
+8. **Photo Uploads**: Users can upload up to 9 photos for each post, and 1 avatar for user profile. 
+
 ## Getting Started
 
 To set up the twitter Project in your local environment, follow the steps below:
 
 1. Clone the repository to your local machine.
 2. Install the required dependencies in `requirements.txt`.
-3. Configure the database settings.
+3. Configure the SQL database settings.
 4. Run migrations to create the necessary tables.
-5. Start the development server.
-
-For more detailed instructions, please refer to the project documentation.
+5. Configure the AWS S3 settings or other object storage database.  
+6. Start the development server.

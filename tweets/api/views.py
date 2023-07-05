@@ -37,7 +37,7 @@ class TweetViewSet(viewsets.GenericViewSet,
     @required_params(params=['user_id'])
     def list(self, request, *args, **kwargs):
         # 这句查询会被翻译为
-        # select * from loopon_tweets
+        # select * from twitter_tweets
         # where user_id = xxx
         # order by created_at desc
         # 这句 SQL 查询会用到 user 和 created_at 的联合索引
