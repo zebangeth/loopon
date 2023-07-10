@@ -20,7 +20,7 @@ This project currently supports the following features:
 
 7. **Notifications**: A notification center to keep users informed about unread likes and comments on their content.
 
-8. **Photo Uploads**: Users can upload up to 9 photos for each post, and 1 avatar for user profile. 
+8. **Photo Uploads**: Users can upload up to 9 photos for each post, and 1 avatar for their user profile. 
 
 ## Getting Started
 
